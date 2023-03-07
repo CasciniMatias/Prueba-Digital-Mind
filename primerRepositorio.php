@@ -28,7 +28,22 @@ git log
 Para remover un archivo utilizaremos el comando 
 $ rm -rf .git (aquí estariamos eliminando el archivo .git de nuestra carpeta)
 
-
+--------IMPORTANTE----------
+Para vincular el repositorio local con el remoto, lo que debemos hacer es 
+lo siguiente:
+  1- tener creado el repositorio local
+  2- tener commitiado todo
+  3- en github crear un nuevo repositorio (darle nombre y demás)
+  4- con la url que nos da github vincular los repositorios mediante
+     la terminal de nuestro visual studio code
+     $ git remote add origin https://github.com/CasciniMatias/Prueba-Digital-Mind.git
+     $ git push -u origin main
+  5- Ya están conectados los repositorios.
+  6- si quiero subir algún archivo nuevo, primero debo agregarlo al repositorio
+     local, luego commitiarlo y por último, con el comando 
+     $ git push -u origin main
+     se agrega en el repositorio de github todo lo que hayamos guardado y creado
+     en el repositorio local.
 
 
 
