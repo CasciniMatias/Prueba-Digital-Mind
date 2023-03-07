@@ -25,6 +25,10 @@ git commit -m "Mensaje Aclarando Que Se Cambio"
 Para ver el historial (de commits) de camios hacemos:
 git log
 
+Para remover un archivo utilizaremos el comando 
+$ rm -rf .git (aquí estariamos eliminando el archivo .git de nuestra carpeta)
+
+
 
 
 
