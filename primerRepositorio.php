@@ -44,6 +44,10 @@ lo siguiente:
      $ git push -u origin main
      se agrega en el repositorio de github todo lo que hayamos guardado y creado
      en el repositorio local.
+  7- Para descargar desde github un repositorio en otra compu, lo hacemos mediante 
+     el comando "git clone https://github.com/CasciniMatias/Prueba-Digital-Mind.git"
+  8- Para actualizar un repositorio que ya habiamos descargado con anterioridad
+     lo que hay que usar es el comando "git pull origin main"
 
 
 
